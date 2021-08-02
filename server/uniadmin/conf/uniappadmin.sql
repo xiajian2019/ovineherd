@@ -1,3 +1,5 @@
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`ovineherd` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `ovineherd`
 
 -- ----------------------------
 -- Table structure for attributes
@@ -165,7 +167,7 @@ CREATE TABLE `specifications` (
 -- ----------------------------
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
-  `id` bigint(20) NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `type` varchar(255) DEFAULT NULL,
   `username` varchar(64) DEFAULT NULL,
   `password` varchar(64) DEFAULT NULL,
@@ -196,6 +198,8 @@ CREATE TABLE `users` (
 INSERT INTO users
 ( username, password, type) VALUES
 ( "rootadmin", "admin123", "ovine_system_user");
+
+INSERT INTO users ( username, password, type) VALUES ( "demo110", "demo110", "ovine_org_user_undefined");
 
 
 INSERT INTO configurations

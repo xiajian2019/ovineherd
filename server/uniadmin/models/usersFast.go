@@ -90,7 +90,7 @@ func AddUsersFast(user map[string]interface{}, types string) (data map[string]in
 		}
 		userData.Phone = phone.(string)
 	}
-	//验证用户名 是否存在
+	//验证用户名 是否存在 明文传密码实在 666
 	if username != "" {
 		sql := "select count(*) as count from  `users`  where username=? and type=?  limit 1"
 

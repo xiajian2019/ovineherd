@@ -1,6 +1,6 @@
 ### Ovine Herd
 
-可在线构建管理系统  应用的平台.
+可在线构建管理系统应用的平台，前端使用乾坤(qikun) 构建
 
 #### 启动项目
 
@@ -13,7 +13,7 @@
 
 ###### 注意:
 
-由于本地使用了 `localhost:7049` 作为 API 接口，如果想使用测试服 API，可以将 对应配置注释
+由于本地使用了 `localhost:7049` 作为 API 接口，如果想使用测试服 API，可以将对应配置注释
 
 - `apps/platform/src/core/env.ts` 中 `localhost.domains.api` 注释
 - `apps/rubik/src/core/env.ts` 中 `localhost.domains.api` 注释
@@ -24,7 +24,7 @@
 // 本地开发
   localhost: {
     domains: {
-      // api: 'http://localhost:7049', // 注释此行，即可使用测试服API
+      // api: 'http://localhost:7049', // 注释此行，即可使用测试服API，原因是默认就是测试服务器的 API
     },
   }
 ```
@@ -34,7 +34,9 @@
 - `http://localhost:7060/platform/center/sys/admin` 平台用户登录
   - 如果是测试服 API 可使用: `super01/super01` 登录
 
-#### 本项目 服务端部分 `server/uniadmin/`
+#### 服务端部分
+
+`server/uniadmin/` 采用 beego 构建的后端API。 
 
 - [文档地址](http://doc.uniappadmin.cn/docs/baser_service/explain)
 - [源代码仓库](https://gitee.com/uniappadmin/uniappadmin)

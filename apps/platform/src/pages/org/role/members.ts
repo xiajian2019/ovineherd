@@ -16,7 +16,7 @@ const members = {
     syncLocation: false,
     forceReload: true,
     labelTpl: '$real_name',
-    itemCheckableOn: 'this.is_root !== "1"',
+    itemCheckableOn: true,
     headerToolbar: [
       {
         $ref: 'globalTableReloadTool',
