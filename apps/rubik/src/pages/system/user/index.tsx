@@ -21,33 +21,33 @@ export const schema = {
       {
         name: 'id',
         label: '用户ID',
-        type: 'text',
+        type: 'input-text',
         toggled: false,
       },
       {
         name: 'real_name',
         label: '姓名',
-        type: 'text',
+        type: 'input-text',
       },
       {
         name: 'username',
         label: '登录账号',
-        type: 'text',
+        type: 'input-text',
       },
       {
-        type: 'text',
+        type: 'input-text',
         name: 'relation4_data.name',
         label: '角色名',
       },
       {
         name: 'email',
         label: '邮箱',
-        type: 'text',
+        type: 'input-text',
       },
       {
         name: 'phone',
         label: '手机号',
-        type: 'text',
+        type: 'input-text',
       },
       {
         name: 'desc',
@@ -62,7 +62,7 @@ export const schema = {
       {
         name: 'created_time',
         label: '添加时间',
-        type: 'text',
+        type: 'input-text',
       },
       {
         type: 'operation',
@@ -233,20 +233,20 @@ export const schema = {
         type: 'form',
         controls: [
           {
-            type: 'text',
+            type: 'input-text',
             name: 'username',
             label: '登录账号',
             required: true,
             disabledOn: 'typeof data.id !== "undefined"',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'password',
             label: '登录密码',
             requiredOn: 'typeof data.id === "undefined"',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'real_name',
             label: '姓名',
             required: true,
@@ -264,7 +264,7 @@ export const schema = {
             label: '邮箱',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'phone',
             label: '手机号',
             validations: {
@@ -292,7 +292,7 @@ export const schema = {
             name: 'q_relation4',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'n_username',
             placeholder: '请输入登录账号搜索',
             clearable: true,

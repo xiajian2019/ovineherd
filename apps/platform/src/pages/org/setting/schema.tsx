@@ -229,7 +229,7 @@ export const settingSchema = {
                     },
                     controls: [
                       {
-                        type: 'text',
+                        type: 'input-text',
                         name: 'name',
                         required: true,
                         label: '名称',
@@ -238,7 +238,7 @@ export const settingSchema = {
                         description: '用于页面浏览器标题展示',
                       },
                       {
-                        type: 'text',
+                        type: 'input-text',
                         name: 'slogan',
                         required: true,
                         label: '标语',
@@ -247,7 +247,7 @@ export const settingSchema = {
                         description: '用于介绍页面浏览器标题展示',
                       },
                       {
-                        type: 'text',
+                        type: 'input-text',
                         name: 'title',
                         label: '导航标题',
                         placeholder: '请输入导航标题',
@@ -338,7 +338,7 @@ export const settingSchema = {
                       },
                       controls: [
                         {
-                          type: 'text',
+                          type: 'input-text',
                           name: 'login_title',
                           required: true,
                           label: '登录标题',

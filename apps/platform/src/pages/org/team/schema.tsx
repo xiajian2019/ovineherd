@@ -67,18 +67,18 @@ export const tableSchema = {
     {
       name: 'id',
       label: '用户ID',
-      type: 'text',
+      type: 'input-text',
       toggled: false,
     },
     {
       name: 'username',
       label: '登录账号',
-      type: 'text',
+      type: 'input-text',
     },
     {
       name: 'real_name',
       label: '姓名',
-      type: 'text',
+      type: 'input-text',
     },
     // {
     //   name: 'leader',
@@ -95,7 +95,7 @@ export const tableSchema = {
     {
       name: 'team.label',
       label: '所属部门',
-      type: 'text',
+      type: 'input-text',
     },
     {
       name: 'relation4_data.name',
@@ -197,7 +197,7 @@ export const tableSchema = {
         type: 'form',
         controls: [
           {
-            type: 'text',
+            type: 'input-text',
             name: 'username',
             label: '登录账号',
             required: true,
@@ -205,14 +205,14 @@ export const tableSchema = {
             placeholder: '请输入登录账号',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'password',
             label: '登录密码',
             requiredOn: 'typeof data.id === "undefined"',
             placeholder: '请输入登录密码，编辑时为修改密码',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'real_name',
             label: '姓名',
             required: true,
@@ -241,7 +241,7 @@ export const tableSchema = {
             placeholder: '请输入邮箱',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'phone',
             label: '手机号',
             placeholder: '请输入手机号',
@@ -274,7 +274,7 @@ export const tableSchema = {
             label: '所属部门',
           },
           {
-            type: 'text',
+            type: 'input-text',
             name: 'q_username',
             placeholder: '请输入登录账号搜索',
             clearable: true,

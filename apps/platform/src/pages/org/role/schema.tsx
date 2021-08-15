@@ -32,13 +32,13 @@ export const orgRoleSchema = {
             {
               name: 'id',
               label: '权限ID',
-              type: 'text',
+              type: 'input-text',
               toggled: false,
             },
             {
               name: 'name',
               label: '角色名称',
-              type: 'text',
+              type: 'input-text',
               // quickEdit: {
               //   type: 'textarea',
               //   placeholder: '修改角色名称',
@@ -154,7 +154,7 @@ export const orgRoleSchema = {
         type: 'form',
         controls: [
           {
-            type: 'text',
+            type: 'input-text',
             name: 'name',
             label: '角色名称',
             required: true,
@@ -175,7 +175,7 @@ export const orgRoleSchema = {
         target: 'roleList',
         controls: [
           {
-            type: 'text',
+            type: 'input-text',
             name: 'n_name',
             placeholder: '请输入角色名搜索',
             clearable: true,

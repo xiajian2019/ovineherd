@@ -73,7 +73,7 @@ export const schema = {
         name: 'desc',
         label: '备注信息',
         remark: '对该页面备注信息',
-        type: 'text',
+        type: 'input-text',
         // eslint-disable-next-line
         tpl: '${desc|default:-|truncate:10}',
         popOver: {
@@ -83,7 +83,7 @@ export const schema = {
       // {
       //   name: 'user.username',
       //   label: '创建者',
-      //   type: 'text',
+      //   type: 'input-text',
       // },
       {
         name: 'created_time',
@@ -236,7 +236,7 @@ export const schema = {
 
           {
             name: 'label',
-            type: 'text',
+            type: 'input-text',
             label: '菜单名称',
             required: true,
             placeholder: '请输入菜单名称',
@@ -304,7 +304,7 @@ export const schema = {
                 name: 'label',
                 label: '权限名称',
                 quickEdit: {
-                  type: 'text',
+                  type: 'input-text',
                   required: true,
                   placeholder: '请输入权限名称',
                 },
@@ -313,7 +313,7 @@ export const schema = {
                 name: 'key',
                 label: '权限KEY',
                 quickEdit: {
-                  type: 'text',
+                  type: 'input-text',
                   required: true,
                   placeholder: '请输入KEY',
                 },
@@ -336,7 +336,7 @@ export const schema = {
                 name: 'desc',
                 label: '权限描述',
                 quickEdit: {
-                  type: 'text',
+                  type: 'input-text',
                   placeholder: '请输入权限描述',
                 },
               },
@@ -354,7 +354,7 @@ export const schema = {
         controls: [
           {
             name: 'n_label',
-            type: 'text',
+            type: 'input-text',
             placeholder: '请输入页面名称',
             clearable: true,
             addOn: {

@@ -1,5 +1,5 @@
 import { OptionsControl } from 'amis'
-import TextControl from 'amis/lib/renderers/Form/Text'
+import TextControl from 'amis/lib/renderers/Form/InputText'
 import * as React from 'react'
 
 import styled from 'styled-components'
@@ -19,7 +19,6 @@ const iconConfig = [
 ]
 
 // TODO: 1. 添加搜索功能 2. 添加分类 3. 添加更多 优秀的图标
-
 const StyledIconItems = styled.div`
   padding: 0 20px;
   ul {

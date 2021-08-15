@@ -45,7 +45,7 @@ const members = {
           name: 'q_relation4',
         },
         {
-          type: 'text',
+          type: 'input-text',
           name: 'n_real_name',
           placeholder: '请输入用户姓名',
           clearable: true,
@@ -128,7 +128,7 @@ const members = {
       {
         name: 'id',
         label: '用户ID',
-        type: 'text',
+        type: 'input-text',
         toggled: false,
       },
       {
@@ -160,12 +160,12 @@ const members = {
       {
         name: 'role.name',
         label: '角色名称',
-        type: 'text',
+        type: 'input-text',
       },
       // {
       //   name: 'team.label',
       //   label: '所属部门',
-      //   type: 'text',
+      //   type: 'input-text',
       // },
       {
         name: 'desc',

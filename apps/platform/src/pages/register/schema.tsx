@@ -56,7 +56,7 @@ const registerSchema = {
           {
             name: 'username',
             label: '登录账号',
-            type: 'text',
+            type: 'input-text',
             required: true,
             validations: {
               minLength: 4,
@@ -68,7 +68,7 @@ const registerSchema = {
           {
             name: 'name',
             label: '组织名称',
-            type: 'text',
+            type: 'input-text',
             required: true,
             validations: {
               minLength: 2,

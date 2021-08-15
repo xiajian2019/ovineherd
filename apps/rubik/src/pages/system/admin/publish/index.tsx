@@ -23,18 +23,18 @@ export const schema = {
       {
         name: 'version',
         label: '版本号',
-        type: 'text',
+        type: 'input-text',
       },
       // {
       //   name: 'type',
       //   label: '类型',
-      //   type: 'text',
+      //   type: 'input-text',
       // },
       {
         name: 'desc',
         label: '备注信息',
         remark: '对该版本的备注信息',
-        type: 'text',
+        type: 'input-text',
         // eslint-disable-next-line
         tpl: '${desc|default:-|truncate:10}',
         popOver: {
@@ -51,7 +51,7 @@ export const schema = {
       {
         name: 'user.username',
         label: '发布人',
-        type: 'text',
+        type: 'input-text',
       },
       {
         type: 'operation',
@@ -130,7 +130,7 @@ export const schema = {
         controls: [
           {
             name: 'label',
-            type: 'text',
+            type: 'input-text',
             label: '菜单名称',
             required: true,
             desc: '该页面对应菜单的展示名称',
@@ -168,7 +168,7 @@ export const schema = {
           {
             name: 'name',
             label: '组织名称',
-            type: 'text',
+            type: 'input-text',
             placeholder: '请输入组织名称',
             required: true,
             validations: {
@@ -196,7 +196,7 @@ export const schema = {
         target: 'orgList',
         controls: [
           {
-            type: 'text',
+            type: 'input-text',
             name: 'n_label',
             placeholder: '请输入页面名称',
             clearable: true,

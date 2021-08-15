@@ -44,13 +44,13 @@ const orgSchema = {
             {
               name: 'id',
               label: '组织ID',
-              type: 'text',
+              type: 'input-text',
               toggled: false,
             },
             {
               name: 'config.name',
               label: '组织名称',
-              type: 'text',
+              type: 'input-text',
             },
             {
               name: 'config.logo',
@@ -74,7 +74,7 @@ const orgSchema = {
               name: 'config.sys_desc',
               label: '备注信息',
               remark: '对该组织备注信息',
-              type: 'text',
+              type: 'input-text',
               // eslint-disable-next-line
               tpl: '${config.sys_desc|default:-|truncate:10}',
               popOver: {
@@ -84,7 +84,7 @@ const orgSchema = {
             // {
             //   name: 'user.username',
             //   label: '管理员',
-            //   type: 'text',
+            //   type: 'input-text',
             // },
             {
               name: 'created_time',
@@ -126,7 +126,7 @@ const orgSchema = {
             {
               name: 'id',
               label: 'ID',
-              type: 'text',
+              type: 'input-text',
               toggled: false,
             },
             {
@@ -138,17 +138,17 @@ const orgSchema = {
             {
               name: 'username',
               label: '登录账号',
-              type: 'text',
+              type: 'input-text',
             },
             {
               name: 'email',
               label: '邮箱',
-              type: 'text',
+              type: 'input-text',
             },
             {
               name: 'name',
               label: '组织名称',
-              type: 'text',
+              type: 'input-text',
             },
             {
               name: 'status',
@@ -169,7 +169,7 @@ const orgSchema = {
             {
               name: 'desc',
               label: '处理备注信息',
-              type: 'text',
+              type: 'input-text',
               // eslint-disable-next-line
               tpl: '${desc|default:-|truncate:10}',
               popOver: {
@@ -280,13 +280,13 @@ const orgSchema = {
               {
                 name: 'username',
                 label: '登录账号',
-                type: 'text',
+                type: 'input-text',
                 required: true,
               },
               {
                 name: 'password',
                 label: '登录密码',
-                type: 'text',
+                type: 'input-text',
                 required: true,
               },
             ],
@@ -299,7 +299,7 @@ const orgSchema = {
               {
                 name: 'name',
                 label: '组织名称',
-                type: 'text',
+                type: 'input-text',
                 required: true,
                 validations: {
                   minLength: 2,
@@ -373,7 +373,7 @@ const orgSchema = {
           {
             name: 'name',
             label: '组织名称',
-            type: 'text',
+            type: 'input-text',
             placeholder: '请输入组织名称',
             required: true,
             validations: {
@@ -383,14 +383,14 @@ const orgSchema = {
           {
             name: 'username',
             label: '组织管理员账号',
-            type: 'text',
+            type: 'input-text',
             required: true,
             disabled: true,
           },
           {
             name: 'password',
             label: '组织管理员密码',
-            type: 'text',
+            type: 'input-text',
             placeholder: '修改组织管理员登陆密码',
             validations: {
               minLength: 4,
@@ -568,7 +568,7 @@ const orgSchema = {
         target: 'orgList',
         controls: [
           {
-            type: 'text',
+            type: 'input-text',
             name: 'n_name',
             placeholder: '请输入 组织名称',
             clearable: true,

@@ -975,10 +975,10 @@
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@ovine/cli@0.1.3":
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/@ovine/cli/-/cli-0.1.3.tgz#625dbe4725e25b58a662d136820cdc38b2389787"
-  integrity sha512-C/vGooRXHsBrGeDusvZ0doTcFPDWxyVbrFiBgKCALXgHwkoG8SUVdL4mYPRk38cY1htajVfpH0Ze+N2zbpvWow==
+"@ovine/cli@0.1.5-alpha.1":
+  version "0.1.5-alpha.1"
+  resolved "https://registry.nlark.com/@ovine/cli/download/@ovine/cli-0.1.5-alpha.1.tgz#2095556e632f0068ca24dcbd796ffd8e5404bd03"
+  integrity sha1-IJVVbmMvAGjKJNy9eW/9jlQEvQM=
   dependencies:
     "@babel/core" "^7.7.4"
     "@babel/plugin-syntax-dynamic-import" "^7.7.4"
@@ -1032,23 +1032,23 @@
     webpack-merge "^4.2.2"
     webpackbar "^4.0.0"
 
-"@ovine/core@0.1.3":
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/@ovine/core/-/core-0.1.3.tgz#3279060743d59d6af81e21687271b0976d8d270c"
-  integrity sha512-Wguupiz6TEs1LVhAiBH8zGHvpCrC8t5WZIAMxUF0Qg9oZxTbvpPm0uIQkY/TpdkLkDdUOVPL82+Tj5F704VgFQ==
+"@ovine/core@0.1.5-alpha.1":
+  version "0.1.5-alpha.1"
+  resolved "https://registry.nlark.com/@ovine/core/download/@ovine/core-0.1.5-alpha.1.tgz#35d2c906196129b890e42262bca85caecbd3b213"
+  integrity sha1-NdLJBhlhKbiQ5CJivKhcrsvTshM=
   dependencies:
     abortcontroller-polyfill "^1.4.0"
-    amis "1.1.6-beta.10"
+    amis "1.2.1"
     animate.css "^3.7.2"
     bootstrap "^4.4.1"
     copy-to-clipboard "^3.3.1"
     core-js "^3.6.4"
     proxy-polyfill "^0.3.0"
 
-"@ovine/editor@0.1.3":
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/@ovine/editor/-/editor-0.1.3.tgz#f517d53a6d1741f81c73982f4d73761920baea08"
-  integrity sha512-3owzaUT1BVRYExMvFFTDKfG7qtGk2I5+qSB7X3rXAW5DwTvwCuZ41lEghm2nBfAxkG6DmB8whQBN+wS7lwx39w==
+"@ovine/editor@0.1.5-alpha.1":
+  version "0.1.5-alpha.1"
+  resolved "https://registry.nlark.com/@ovine/editor/download/@ovine/editor-0.1.5-alpha.1.tgz#aef9002e104ce74dd7193eb8e36788fa91ca816a"
+  integrity sha1-rvkALhBM503XGT6442eI+pHKgWo=
   dependencies:
     deep-diff "1.0.2"
     json-ast-comments "^1.0.4"
@@ -1613,38 +1613,41 @@ amdefine@>=0.0.4:
   resolved "https://registry.nlark.com/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-amis@1.1.6-beta.10:
-  version "1.1.6-beta.10"
-  resolved "https://registry.npmjs.org/amis/-/amis-1.1.6-beta.10.tgz#8247ccb3c358bb933775dafecb805d51eb455b19"
-  integrity sha512-sUsqHXXra35tSkOZuFjCbdiF6/NUTgtsWNpFCCoNqc6uHhqnSw2QOTVR4OgcIkYeCpV9cnGBZsBwtIz5vYC+aA==
+amis@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.nlark.com/amis/download/amis-1.2.1.tgz#81b4e03c0e0bbeb225dd97c610edd6cf15dbdcd3"
+  integrity sha1-gbTgPA4LvrIl3ZfGEO3WzxXb3NM=
   dependencies:
     ansi-to-react "^6.1.4"
     async "2.6.0"
     attr-accept "2.2.2"
     blueimp-canvastoblob "2.1.0"
-    classnames "2.2.5"
+    classnames "2.3.1"
     dom-helpers "^3.3.1"
     downshift "3.1.4"
-    echarts "5.0.0"
+    echarts "5.1.2"
     echarts-stat "^1.2.0"
     exceljs "^4.2.0"
     file-saver "^2.0.2"
     flv.js "1.5.0"
     froala-editor "2.9.6"
+    highlight.js "^10.7.2"
     hls.js "0.12.2"
     hoist-non-react-statics "3.3.0"
     immutability-helper "^3.1.1"
     jquery "^3.2.1"
     keycode "^2.1.9"
     lodash "^4.17.15"
+    markdown-it "^12.0.6"
     match-sorter "2.2.1"
     mobx "^4.5.0"
     mobx-react "^6.1.4"
-    mobx-state-tree "^3.7.0"
+    mobx-state-tree "^3.17.3"
     moment "^2.19.3"
-    monaco-editor "0.23.0"
+    monaco-editor "0.24.0"
     papaparse "^5.3.0"
     prop-types "^15.6.1"
+    punycode "^2.1.1"
     qrcode.react "^0.8.0"
     qs "6.5.1"
     rc-input-number "6.1.1"
@@ -1655,14 +1658,14 @@ amis@1.1.6-beta.10:
     react-dom "^16.8.6"
     react-dropzone "11.2.4"
     react-input-range "1.3.0"
-    react-json-tree "0.13.0"
+    react-json-tree "0.15.0"
     react-overlays "0.8.3"
     react-textarea-autosize "5.1.0"
     react-transition-group "2.9.0"
     react-visibility-sensor "3.11.0"
     setimmediate "1.0.5"
     sortablejs "1.10.0"
-    tinymce "5.6.2"
+    tinymce ">=5.7.1"
     tslib "^2.1.0"
     uncontrollable "7.0.2"
     video-react "0.14.1"
@@ -1815,6 +1818,11 @@ argparse@^1.0.7:
   integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
+
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/argparse/download/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
 
 aria-query@^4.2.2:
   version "4.2.2"
@@ -3259,10 +3267,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.5:
-  version "2.2.5"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
-  integrity sha1-+zgB1FNGdknvNgPH1hoCvRKb3m0=
+classnames@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.npm.taobao.org/classnames/download/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha1-38+jiR4wbsHa0QXQ6I9EF7hTXo4=
 
 classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
@@ -4325,13 +4333,13 @@ echarts-stat@^1.2.0:
   resolved "https://registry.npmjs.org/echarts-stat/-/echarts-stat-1.2.0.tgz#d1e7a05d1827724c5cde81f76ee1d75a901746a2"
   integrity sha512-zLd7Kgs+tuTSeaK0VQEMNmnMivEkhvHIk1gpBtLzpRerfcIQ+Bd5XudOMmtwpaTc1WDZbA7d1V//iiBccR46Qg==
 
-echarts@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/echarts/-/echarts-5.0.0.tgz#66ec0ea47e3c93b2aadfbb2d719869932ad13ce0"
-  integrity sha512-6SDcJbLVOcfQyjPg+spNU1+JVrkU1B9fzUa5tpbP/mMNUPyigCOJwcEIQAJSbp9jt5UP3EXvQR0vtYXIo9AjyA==
+echarts@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.nlark.com/echarts/download/echarts-5.1.2.tgz#aa1ab0cef5b74fa2f7c620261a5f286893d30fd1"
+  integrity sha1-qhqwzvW3T6L3xiAmGl8oaJPTD9E=
   dependencies:
-    tslib "1.10.0"
-    zrender "5.0.1"
+    tslib "2.0.3"
+    zrender "5.1.1"
 
 ecstatic@^3.3.2:
   version "3.3.2"
@@ -4429,7 +4437,7 @@ entities@^1.1.1:
   resolved "https://registry.npmjs.org/entities/-/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
   integrity sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
 
-entities@^2.0.0:
+entities@^2.0.0, entities@~2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
   integrity sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==
@@ -5665,6 +5673,11 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.npmjs.org/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+highlight.js@^10.7.2:
+  version "10.7.3"
+  resolved "https://registry.nlark.com/highlight.js/download/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
+  integrity sha1-aXJy45kTVuQMPKxWanTu9oF1ZTE=
+
 history@^4.9.0:
   version "4.10.1"
   resolved "https://registry.npmjs.org/history/-/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
@@ -6696,6 +6709,13 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
+linkify-it@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.nlark.com/linkify-it/download/linkify-it-3.0.2.tgz#f55eeb8bc1d3ae754049e124ab3bb56d97797fb8"
+  integrity sha1-9V7ri8HTrnVASeEkqzu1bZd5f7g=
+  dependencies:
+    uc.micro "^1.0.1"
+
 lint-staged@^10.0.7:
   version "10.5.3"
   resolved "https://registry.npmjs.org/lint-staged/-/lint-staged-10.5.3.tgz#c682838b3eadd4c864d1022da05daa0912fb1da5"
@@ -6983,6 +7003,17 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it@^12.0.6:
+  version "12.2.0"
+  resolved "https://registry.nlark.com/markdown-it/download/markdown-it-12.2.0.tgz?cache=0&sync_timestamp=1627928755354&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmarkdown-it%2Fdownload%2Fmarkdown-it-12.2.0.tgz#091f720fd5db206f80de7a8d1f1a7035fd0d38db"
+  integrity sha1-CR9yD9XbIG+A3nqNHxpwNf0NONs=
+  dependencies:
+    argparse "^2.0.1"
+    entities "~2.1.0"
+    linkify-it "^3.0.1"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 match-sorter@2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/match-sorter/-/match-sorter-2.2.1.tgz#899a5b900f4855204bc2d3aa8cb23ba16fc528dc"
@@ -7013,6 +7044,11 @@ mdn-data@2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
   integrity sha512-iV3XNKw06j5Q7mi6h+9vbx23Tv7JkjEVgKHW4pimwyDGWm0OIQntJJ+u1C6mg6mK1EaTv42XQ7w76yuzH7M2cA==
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/mdurl/download/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+  integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -7314,10 +7350,10 @@ mobx-react@^6.1.4:
   dependencies:
     mobx-react-lite "^2.2.0"
 
-mobx-state-tree@^3.7.0:
+mobx-state-tree@^3.17.3:
   version "3.17.3"
-  resolved "https://registry.npmjs.org/mobx-state-tree/-/mobx-state-tree-3.17.3.tgz#e9c40dca17e7b72ad01270852a516145bf6b6c72"
-  integrity sha512-ph4ee/Lh1qUJqHEGkfdWdBAUGdG+VAu7xZbYX/+4qem5hSSpdeZYAJOcN3bhtgEH8Wh/ZxRpQVOLM0aMFXfBSw==
+  resolved "https://registry.nlark.com/mobx-state-tree/download/mobx-state-tree-3.17.3.tgz#e9c40dca17e7b72ad01270852a516145bf6b6c72"
+  integrity sha1-6cQNyhfntyrQEnCFKlFhRb9rbHI=
 
 mobx@^4.5.0:
   version "4.15.7"
@@ -7336,10 +7372,10 @@ monaco-editor-webpack-plugin@3.0.1:
   dependencies:
     loader-utils "^2.0.0"
 
-monaco-editor@0.23.0:
-  version "0.23.0"
-  resolved "https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.23.0.tgz#24844ba5640c7adb3a2a3ff3b520cf2d7170a6f0"
-  integrity sha512-q+CP5zMR/aFiMTE9QlIavGyGicKnG2v/H8qVvybLzeFsARM8f6G9fL0sMST2tyVYCwDKkGamZUI6647A0jR/Lg==
+monaco-editor@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.nlark.com/monaco-editor/download/monaco-editor-0.24.0.tgz?cache=0&sync_timestamp=1626426364456&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmonaco-editor%2Fdownload%2Fmonaco-editor-0.24.0.tgz#990b55096bcc95d08d8d28e55264c6eb17707269"
+  integrity sha1-mQtVCWvMldCNjSjlUmTG6xdwcmk=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -8875,10 +8911,10 @@ react-is@^16.12.0, react-is@^16.3.2, react-is@^16.5.2, react-is@^16.6.0, react-i
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-json-tree@0.13.0:
-  version "0.13.0"
-  resolved "https://registry.npmjs.org/react-json-tree/-/react-json-tree-0.13.0.tgz#49b1e68e4ed7f4f918142a4b0d9af6c533c86a7d"
-  integrity sha512-FPJUQzYWi7pvBUAnMd9ENOnAUT2mXLhe01VUbPfKH9Q4gk4FQ0fpS1e1WZ3o7g6zfYJpYJeBTo1WwlMHlMlZOw==
+react-json-tree@0.15.0:
+  version "0.15.0"
+  resolved "https://registry.npm.taobao.org/react-json-tree/download/react-json-tree-0.15.0.tgz#16a5bbed761f711d1656de6c62818d40ddb09442"
+  integrity sha1-FqW77XYfcR0WVt5sYoGNQN2wlEI=
   dependencies:
     "@types/prop-types" "^15.7.3"
     prop-types "^15.7.2"
@@ -10397,10 +10433,10 @@ tinycolor2@^1.4.1:
   resolved "https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
-tinymce@5.6.2:
-  version "5.6.2"
-  resolved "https://registry.npmjs.org/tinymce/-/tinymce-5.6.2.tgz#4c20c22e328c5d0baab204928dbc2b0ecbed18b4"
-  integrity sha512-z7zvM5seOPiW86/vqf08kStwW5Zs5U9oQfuqh2rTj4jEcT2QzxT0v72i2zw3W6rbTLldkAej6edFZphj5ee5zg==
+tinymce@>=5.7.1:
+  version "5.8.2"
+  resolved "https://registry.nlark.com/tinymce/download/tinymce-5.8.2.tgz?cache=0&sync_timestamp=1624431174429&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftinymce%2Fdownload%2Ftinymce-5.8.2.tgz#54eb8160b697796c3b52282e648d9d12b1a7399a"
+  integrity sha1-VOuBYLaXeWw7UiguZI2dErGnOZo=
 
 tmp@^0.0.33:
   version "0.0.33"
@@ -10529,20 +10565,15 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
-  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+tslib@2.0.3, tslib@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
+  integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-
-tslib@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
-  integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
 
 tslib@^2.1.0:
   version "2.2.0"
@@ -10617,6 +10648,11 @@ typescript@~4.1.2:
   version "4.1.5"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.5.tgz#123a3b214aaff3be32926f0d8f1f6e704eb89a72"
   integrity sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
+
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.nlark.com/uc.micro/download/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
+  integrity sha1-nEEagCpAmpH8bPdAgbq6NLJEmaw=
 
 uncontrollable@7.0.2:
   version "7.0.2"
@@ -11257,9 +11293,9 @@ zip-stream@^4.0.4:
     compress-commons "^4.0.2"
     readable-stream "^3.6.0"
 
-zrender@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/zrender/-/zrender-5.0.1.tgz#cc377136a9d00d0a177ca7f65c32aed2901928da"
-  integrity sha512-i8FNCKAKfF0EfZFJ6w2p30umBrCyy481/PePFQqPdtNgCl5Hp5z7/dovqb7soEoFkhNvhjJ/J4W9zFALeae6yA==
+zrender@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.nlark.com/zrender/download/zrender-5.1.1.tgz#0515f4f8cc0f4742f02a6b8819550a6d13d64c5c"
+  integrity sha1-BRX0+MwPR0LwKmuIGVUKbRPWTFw=
   dependencies:
-    tslib "1.10.0"
+    tslib "2.0.3"

@@ -36,7 +36,7 @@ export const schema = {
                   controls: [
                     {
                       hiddenOn: isolation,
-                      type: 'text',
+                      type: 'input-text',
                       name: 'name',
                       required: true,
                       label: '名称',
@@ -46,7 +46,7 @@ export const schema = {
                     },
                     {
                       hiddenOn: isolation,
-                      type: 'text',
+                      type: 'input-text',
                       name: 'slogan',
                       required: true,
                       label: '标语',
@@ -55,7 +55,7 @@ export const schema = {
                       description: '用于介绍页面浏览器标题展示',
                     },
                     {
-                      type: 'text',
+                      type: 'input-text',
                       name: 'title',
                       label: '导航标题',
                       placeholder: '请输入导航标题',
@@ -149,7 +149,7 @@ export const schema = {
                   name: 'name',
                   remark: '变量名只允许大写字母，数字，下划线的组合。例如：A_0',
                   quickEdit: {
-                    type: 'text',
+                    type: 'input-text',
                     required: true,
                     placeholder: '请输入变量名(大写字母)',
                   },
@@ -158,7 +158,7 @@ export const schema = {
                   label: '变量值',
                   name: 'value',
                   quickEdit: {
-                    type: 'text',
+                    type: 'input-text',
                     required: true,
                     placeholder: '请输入变量值',
                   },
@@ -167,7 +167,7 @@ export const schema = {
                   name: 'desc',
                   label: '变量描述',
                   quickEdit: {
-                    type: 'text',
+                    type: 'input-text',
                     placeholder: '请输入变量描述',
                   },
                 },
@@ -204,7 +204,7 @@ export const schema = {
           ],
           controls: [
             {
-              type: 'text',
+              type: 'input-text',
               name: 'request_base_url',
               mode: 'inline',
               className: 'm-r-md',
