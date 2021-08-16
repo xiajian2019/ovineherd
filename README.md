@@ -1,6 +1,8 @@
-### Ovine Herd
+# Ovine Herd
 
-可在线构建管理系统应用的平台，前端使用乾坤(qikun) 构建
+可在线构建管理系统应用的平台，前端使用乾坤 (qikun) 构建
+
+> qiankun - https://github.com/umijs/qiankun ，用来构建微前端框架的。将不同的技术栈的项目放到一起。
 
 #### 启动项目
 
