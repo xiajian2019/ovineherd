@@ -14,7 +14,6 @@ import './index.less'
  * Step1 初始化应用（可选）
  */
 // render({ loading: true })
-
 // const loader = (loading) => render({ loading })
 
 /**
@@ -47,6 +46,7 @@ const config = presetConfig[process.env.ENV]
 // platform/        --- platform/
 // platform/apps_center  --- platform/center
 // platform/apps_app     --- platform/app
+// 向 qiankun 里注册了两个应用
 registerMicroApps(
   [
     {
