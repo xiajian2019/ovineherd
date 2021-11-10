@@ -77,7 +77,7 @@ export function orgConfigApi(option: { orgId: string }) {
  * 1. 如果APP是 独立应用，则使用独立数据
  * 2. 非独应用，使用 组织信息/平台信息
  * ----
- * 1. 独立医应用，需要渲染额外的  用户列表/角色列表
+ * 1. 独立应用，需要渲染额外的  用户列表/角色列表
  */
 export function fetchAppInfo(appId: string = getAppId()) {
   return requestByOption({
@@ -106,7 +106,7 @@ export function fetchAppInfo(appId: string = getAppId()) {
   })
 }
 
-// 获取导航
+// 获取导航，调用的 apis 中 other.catOpts 中的接口值
 export function getAppRouteItems() {
   return request('other.catOpts', {
     type: relation.app.nav.type,

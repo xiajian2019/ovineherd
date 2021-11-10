@@ -13,6 +13,7 @@ import { ApiName, ApiType } from '../types'
 import { getLink, getOrgId, getOrgUniType, isStrTrue, isSys, linkTo } from '../utils'
 import { ApiData, getReqOption, requestByOption } from './utils'
 
+
 function getSysLimit(source: any) {
   if (get(source, 'relation4_data.is_root')) {
     source.isOrgRoot = true
@@ -216,7 +217,7 @@ export async function sysCreateOrgApi(option: any) {
 
     return ids
   } catch (e) {
-    // 防止垃圾每次创建失败 一堆垃圾数据
+    // 防止垃圾，每次创建失败 一堆垃圾数据
     if (ids.orgAdmUserId) {
       await requestByOption({
         ...relation.org.user,

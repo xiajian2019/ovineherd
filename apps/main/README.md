@@ -39,9 +39,9 @@ export async function update(props) { }
 
 ## 注入的应用
 
-center: '/platform/apps_center/'
+center: '/platform/apps_center/'，在 platform 中 `apps/platform/src/app.tsx`
 
-app: '/platform/apps_app/'
+app: '/platform/apps_app/' 在 rubik 项目里，`apps/rubik/ovine.config.js`
 
 ## 参考教程
 

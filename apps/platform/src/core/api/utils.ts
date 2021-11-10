@@ -9,6 +9,7 @@ import { ReqOption, ReqApiRes } from '@core/utils/request/types'
 
 import { ApiName, ApiType } from '../types'
 
+// API 端点
 export const apis = {
   user: {
     login: {

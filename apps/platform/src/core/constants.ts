@@ -88,7 +88,7 @@ export const relation = {
     user: {
       apiType: ApiType.user,
       type: entityType.orgUser,
-      relation1_type: ApiType.config, // 组织管理员 配置信息
+      relation1_type: ApiType.config,   // 组织管理员 配置信息
       relation2_type: ApiType.category, // 组织管理员 关联的组织
       relation3_type: ApiType.category, // 组织管理员 关联的部门ID
       relation4_type: ApiType.category, // 组织管理员 关联的角色ID

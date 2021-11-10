@@ -23,8 +23,8 @@ import './index.less'
 const presetConfig = {
   localhost: {
     entry: {
-      center: '//localhost:7061',
-      app: '//localhost:7062',
+      center: '//localhost:7061', // platfrom 
+      app: '//localhost:7062',    // rubik
     },
   },
   staging: {

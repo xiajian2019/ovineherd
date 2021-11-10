@@ -29,6 +29,7 @@ const welcomeRoute: RouteItem = {
   ignoreLimit: true,
 }
 
+// 这里有父子路由
 export const sysAdmRoutes: RouteItem[] = [
   {
     nodePath: 'system/admin',
@@ -47,11 +48,12 @@ export const sysAdmRoutes: RouteItem[] = [
         pathToComponent: '/system/role',
         icon: 'iconfont icon-app-verify',
       },
-      // {
-      //   label: '数据模型',
-      //   nodePath: 'model',
-      //   icon: 'iconfont icon-sdktool',
-      // },
+      { 
+        label: '数据模型',
+        nodePath: 'model',
+        pathToComponent: '/system/model',
+        icon: 'iconfont icon-sdktool',
+      },
       // TODO: 完成发布应用的功能
       // {
       //   label: '发布应用',
@@ -59,7 +61,7 @@ export const sysAdmRoutes: RouteItem[] = [
       //   icon: 'iconfont icon-byapi',
       // },
       {
-        label: '应用设置',
+        label: '应用设置', 
         nodePath: 'setting/app',
         icon: 'iconfont icon-shezhi',
       },
