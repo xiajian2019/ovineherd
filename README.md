@@ -91,3 +91,5 @@ username 居然是通过 `query_string` 传过来的。
 ### Docker
 
 增加 docker 的方式进行部署的方式。尝试改造成云原生的项目。
+
+结合 `go-vue-admin` 取长补短。
